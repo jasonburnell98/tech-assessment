@@ -1,0 +1,6 @@
+<div class="flex-container">
+  <div class="box" *ngFor="let item of sortedData">
+    <div class="box-hover">{{ item.source_items.id}}</div>
+    <img src="{{ item.social_media_pages.picture }}" alt="{{ item.social_media_pages.name }}" />
+  </div>
+</div>
